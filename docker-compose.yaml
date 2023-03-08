@@ -1,0 +1,12 @@
+version: "3"
+services: 
+  db:
+    image: postgres
+    environment:
+      POSTGRES_PASSWORD: password123
+      POSTGRES_USER: user123
+      POSTGRES_DB: db123
+  app:
+    image: my-node-app
+    ports:
+      - 13000:3000

@@ -1,0 +1,14 @@
+###
+GET http://localhost:13000/setup
+
+###
+GET http://localhost:13000
+
+###
+POST http://localhost:13000/
+Content-Type: application/json
+
+{
+    "name": "luck",
+    "location": "46 hello world street"
+}
